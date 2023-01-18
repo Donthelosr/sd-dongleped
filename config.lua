@@ -13,61 +13,41 @@ Config.BlipLocation = {
 Config.Peds = {
     {
         type = 'donglenpc',
-        position = vector4(-462.795, -66.5747, 44.511, 10.3)
+        position = vector4(-475.11, -35.1, 45.38, 199.27)
     },
 }
 
 -- Menu Contents
 
-Config.RobberyList = {
-    [1] = {
-        bank = true,
-        Header = "Fleeca Banks",
-        icon = "fa-solid fa-building-columns",
-        minCops = 4,
-    },
-    [2] = {
-        bank = true,
-        Header = "Paleto Bank",
-        icon = "fa-solid fa-building-columns",
-        minCops = 4,
-    },
-    [3] = {
-        bank = true,
-        Header = "Pacific Bank",
-        icon = "fa-solid fa-building-columns",
-        minCops = 4,
-    },
-}
 
 Config.Shop = {
     [1] = {
         item = "electronickit",
-        price = 5450,
+        price = 3000,
         type = "cash",
         icon = "fa-solid fa-laptop-code",
     },
     [2] = {
-        item = "gatecrack",
-        price = 5450,
+        item = "boostinglaptop",
+        price = 5000,
         type = "cash",
         icon = "fa-solid fa-laptop-code",
     },
     [3] = {
-        item = "thermite",
-        price = 5450,
+        item = "boostingdisabler",
+        price = 2500,
         type = "cash",
         icon = "fa-solid fa-laptop-code",
     },
     [4] = {
         item = "trojan_usb",
-        price = 5450,
+        price = 1500,
         type = "cash",
         icon = "fa-solid fa-laptop-code",
     },
     [5] = {
         item = "drill",
-        price = 5450,
+        price = 2000,
         type = "cash",
         icon = "fa-solid fa-laptop-code",
     }
